@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additional data submission for national TB household cost surveys</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Additional data submission for national TB household cost surveys</h2>
+  </div>
+
+  <div class="container" id="register-section">
+    <h2>Register</h2>
+    <input type="text" id="reg_name" placeholder="Full Name">
+    <input type="email" id="reg_email" placeholder="Email Address">
+    <input type="text" id="reg_country" placeholder="Country">
+    <input type="text" id="reg_affiliation" placeholder="Affiliation">
+    <input type="text" id="reg_username" placeholder="Username">
+    <input type="password" id="reg_password" placeholder="Password">
+    <button onclick="register()">Register</button>
+  </div>
+
+  <div class="container" id="login-section">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="container" id="form-section" style="display: none;">
+    <h2>Submit Data</h2>
+    <textarea id="data" placeholder="Enter your questionnaire data here..."></textarea>
+    <button onclick="submitData()">Submit</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
