@@ -1,0 +1,24 @@
+{
+  "name": "hcs_testsite",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanakatakuya/hcs_testsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamanakatakuya/hcs_testsite/issues"
+  },
+  "homepage": "https://github.com/yamanakatakuya/hcs_testsite#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
